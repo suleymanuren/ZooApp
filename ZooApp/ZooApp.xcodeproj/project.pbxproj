@@ -41,6 +41,7 @@
 		83BA41B62A541AF9004E36C3 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B52A541AF9004E36C3 /* MotionAnimationView.swift */; };
 		83BA41B82A5420A3004E36C3 /* AnimalsCoversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B72A5420A3004E36C3 /* AnimalsCoversModel.swift */; };
 		83BA41BA2A5432F6004E36C3 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B92A5432F6004E36C3 /* AnimalGridItemView.swift */; };
+		83BA41BC2A5439D0004E36C3 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41BB2A5439D0004E36C3 /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		83BA41B52A541AF9004E36C3 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		83BA41B72A5420A3004E36C3 /* AnimalsCoversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsCoversModel.swift; sourceTree = "<group>"; };
 		83BA41B92A5432F6004E36C3 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		83BA41BB2A5439D0004E36C3 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */,
 				83BA41B52A541AF9004E36C3 /* MotionAnimationView.swift */,
 				83BA41B92A5432F6004E36C3 /* AnimalGridItemView.swift */,
+				83BA41BB2A5439D0004E36C3 /* MapAnnotationView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				8323C5022A52FCB2002E961A /* SliderView.swift in Sources */,
 				8323C5082A530336002E961A /* CodableBundleExtension.swift in Sources */,
 				83BA41BA2A5432F6004E36C3 /* AnimalGridItemView.swift in Sources */,
+				83BA41BC2A5439D0004E36C3 /* MapAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

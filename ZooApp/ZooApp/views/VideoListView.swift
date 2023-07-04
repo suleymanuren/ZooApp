@@ -34,7 +34,7 @@ struct VideoListView: View {
                     .sheet(item: $selectedAnimal) { selectedAnimal in
                         let videoURL = Bundle.main.url(forResource: selectedAnimal.id, withExtension: "mp4")
                         let player = AVPlayer(url: videoURL!)
-                        
+                        //SEÇİLEN HAYVANIN VİDEOSU BAŞLIYOR
                         VideoPlayer(player: player)
                             .onDisappear {
                                 // Stop the video when the sheet is dismissed
@@ -43,9 +43,7 @@ struct VideoListView: View {
                             .onAppear{
                                 player.play()
                             }
-                        
-                            .presentationDetents([.fraction(0.4)])
-
+                            .presentationDetents([.fraction(0.4)]) //SHEET SIZE
                     }
                 }
                 Spacer()
