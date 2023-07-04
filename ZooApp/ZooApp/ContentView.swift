@@ -41,7 +41,8 @@ struct ContentView: View {
                     }
                     .tag(3)
             }
-            .navigationBarTitle(getTitle(for: selectedTabIndex)) // Set the top bar title dynamically
+            .navigationBarTitle(getTitle(for: selectedTabIndex))
+            // Set the top bar title dynamically
         }
     }
     

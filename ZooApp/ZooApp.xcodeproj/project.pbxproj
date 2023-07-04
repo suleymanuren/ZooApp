@@ -36,6 +36,10 @@
 		8323C50C2A5309EE002E961A /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323C50B2A5309EE002E961A /* AnimalListView.swift */; };
 		8323C50E2A531146002E961A /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323C50D2A531146002E961A /* AnimalDetail.swift */; };
 		83BA41B02A53F000004E36C3 /* AnimalDetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */; };
+		83BA41B22A53FE7D004E36C3 /* AnimalsVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B12A53FE7D004E36C3 /* AnimalsVideoModel.swift */; };
+		83BA41B42A540BB7004E36C3 /* AnimalsLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B32A540BB7004E36C3 /* AnimalsLocationModel.swift */; };
+		83BA41B62A541AF9004E36C3 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B52A541AF9004E36C3 /* MotionAnimationView.swift */; };
+		83BA41B82A5420A3004E36C3 /* AnimalsCoversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41B72A5420A3004E36C3 /* AnimalsCoversModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +74,10 @@
 		8323C50B2A5309EE002E961A /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 		8323C50D2A531146002E961A /* AnimalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
 		83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailMap.swift; sourceTree = "<group>"; };
+		83BA41B12A53FE7D004E36C3 /* AnimalsVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsVideoModel.swift; sourceTree = "<group>"; };
+		83BA41B32A540BB7004E36C3 /* AnimalsLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsLocationModel.swift; sourceTree = "<group>"; };
+		83BA41B52A541AF9004E36C3 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		83BA41B72A5420A3004E36C3 /* AnimalsCoversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsCoversModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 				8323C50B2A5309EE002E961A /* AnimalListView.swift */,
 				8323C50D2A531146002E961A /* AnimalDetail.swift */,
 				83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */,
+				83BA41B52A541AF9004E36C3 /* MotionAnimationView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -180,6 +189,9 @@
 			children = (
 				8323C5042A5300FB002E961A /* SliderModel.swift */,
 				8323C5092A53099A002E961A /* AnimalsModel.swift */,
+				83BA41B12A53FE7D004E36C3 /* AnimalsVideoModel.swift */,
+				83BA41B32A540BB7004E36C3 /* AnimalsLocationModel.swift */,
+				83BA41B72A5420A3004E36C3 /* AnimalsCoversModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -281,12 +293,16 @@
 				8323C4CB2A52F27F002E961A /* ContentView.swift in Sources */,
 				8323C4FC2A52F8DD002E961A /* MainView.swift in Sources */,
 				8323C50A2A53099A002E961A /* AnimalsModel.swift in Sources */,
+				83BA41B62A541AF9004E36C3 /* MotionAnimationView.swift in Sources */,
+				83BA41B42A540BB7004E36C3 /* AnimalsLocationModel.swift in Sources */,
 				8323C4F82A52F8B8002E961A /* MapView.swift in Sources */,
 				83BA41B02A53F000004E36C3 /* AnimalDetailMap.swift in Sources */,
 				8323C50E2A531146002E961A /* AnimalDetail.swift in Sources */,
 				8323C4C92A52F27F002E961A /* ZooAppApp.swift in Sources */,
+				83BA41B22A53FE7D004E36C3 /* AnimalsVideoModel.swift in Sources */,
 				8323C4F62A52F8A0002E961A /* VideoListView.swift in Sources */,
 				8323C4FA2A52F8D2002E961A /* GalleryView.swift in Sources */,
+				83BA41B82A5420A3004E36C3 /* AnimalsCoversModel.swift in Sources */,
 				8323C5022A52FCB2002E961A /* SliderView.swift in Sources */,
 				8323C5082A530336002E961A /* CodableBundleExtension.swift in Sources */,
 			);
@@ -420,6 +436,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZooApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location to see user's location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,6 +466,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZooApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location to see user's location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
