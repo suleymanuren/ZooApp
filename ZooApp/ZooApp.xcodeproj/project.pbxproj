@@ -35,6 +35,7 @@
 		8323C50A2A53099A002E961A /* AnimalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323C5092A53099A002E961A /* AnimalsModel.swift */; };
 		8323C50C2A5309EE002E961A /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323C50B2A5309EE002E961A /* AnimalListView.swift */; };
 		8323C50E2A531146002E961A /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323C50D2A531146002E961A /* AnimalDetail.swift */; };
+		83BA41B02A53F000004E36C3 /* AnimalDetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		8323C5092A53099A002E961A /* AnimalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsModel.swift; sourceTree = "<group>"; };
 		8323C50B2A5309EE002E961A /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 		8323C50D2A531146002E961A /* AnimalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
+		83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				8323C5012A52FCB2002E961A /* SliderView.swift */,
 				8323C50B2A5309EE002E961A /* AnimalListView.swift */,
 				8323C50D2A531146002E961A /* AnimalDetail.swift */,
+				83BA41AF2A53F000004E36C3 /* AnimalDetailMap.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				8323C4FC2A52F8DD002E961A /* MainView.swift in Sources */,
 				8323C50A2A53099A002E961A /* AnimalsModel.swift in Sources */,
 				8323C4F82A52F8B8002E961A /* MapView.swift in Sources */,
+				83BA41B02A53F000004E36C3 /* AnimalDetailMap.swift in Sources */,
 				8323C50E2A531146002E961A /* AnimalDetail.swift in Sources */,
 				8323C4C92A52F27F002E961A /* ZooAppApp.swift in Sources */,
 				8323C4F62A52F8A0002E961A /* VideoListView.swift in Sources */,
