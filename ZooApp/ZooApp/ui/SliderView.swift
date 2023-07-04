@@ -16,7 +16,7 @@ struct SliderView: View {
             ForEach(sliderImages) {animal in
                 Image(animal.name ?? "")
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
                     
             }
         }.tabViewStyle(PageTabViewStyle())

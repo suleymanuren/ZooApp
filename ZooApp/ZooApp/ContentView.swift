@@ -41,25 +41,9 @@ struct ContentView: View {
                     }
                     .tag(3)
             }
-            .navigationBarTitle(getTitle(for: selectedTabIndex))
-            // Set the top bar title dynamically
         }
     }
     
-    func getTitle(for index: Int) -> String {
-        switch index {
-        case 0:
-            return "Animals"
-        case 1:
-            return "Watch"
-        case 2:
-            return ""
-        case 3:
-            return "Gallery"
-        default:
-            return ""
-        }
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
